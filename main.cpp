@@ -95,4 +95,23 @@ bool correctWordForTheRound(string availableLetters, const string yourWord) {
     }
     return true;
 }
+//Check if the word is in the dictionary
+bool wordExistsInDictionary(vector<string> &words, const string &wordToFind) {
+    for (int i = 0; i < words.size(); i++) {
+        if (words[i] == wordToFind) {
+            return true;
+        }
+    }
+    return false;
+}
+
+//Check if the word is valid in order to be added in the dictionary
+bool validNewWord(const string &newWord) {
+    for (int i = 0; i < newWord.size(); i++) {
+        if (newWord[i] < 'a' || newWord[i] > 'z') {
+            return false;
+        }
+    }
+    return true;
+}
 
