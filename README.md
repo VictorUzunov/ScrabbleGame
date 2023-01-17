@@ -1,3 +1,3 @@
 # ScrabbleGame
 
-Tova e moq proekt.
+My first project.

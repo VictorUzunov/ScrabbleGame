@@ -17,8 +17,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12d4d253-5103-4786-9444-5414dde46961" name="Changes" comment="Adding getRandomVowel and correctWordForTheRound functions.">
+    <list default="true" id="12d4d253-5103-4786-9444-5414dde46961" name="Changes" comment="Implemented wordExistsInDictionary and validNewWord functions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,7 @@
       <workItem from="1673896903501" duration="203000" />
       <workItem from="1673898467774" duration="1703000" />
       <workItem from="1673900704859" duration="511000" />
-      <workItem from="1673967119281" duration="1340000" />
+      <workItem from="1673967119281" duration="2223000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented readDictionary and correctInput functions.">
       <created>1673899548303</created>
@@ -120,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673967228194</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented wordExistsInDictionary and validNewWord functions.">
+      <created>1673979239800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673979239800</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +194,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented readDictionary and correctInput functions." />
     <MESSAGE value="Adding getRandomVowel and correctWordForTheRound functions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding getRandomVowel and correctWordForTheRound functions." />
+    <MESSAGE value="Implemented wordExistsInDictionary and validNewWord functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented wordExistsInDictionary and validNewWord functions." />
   </component>
 </project>
