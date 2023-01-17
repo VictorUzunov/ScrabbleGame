@@ -17,7 +17,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12d4d253-5103-4786-9444-5414dde46961" name="Changes" comment="Implemented readDictionary and correctInput functions." />
+    <list default="true" id="12d4d253-5103-4786-9444-5414dde46961" name="Changes" comment="Implemented readDictionary and correctInput functions.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-01-06T16-07-50-0317.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProjectScrabble.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProjectScrabble.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +35,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ScrabbleGame" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,7 +86,9 @@
       <workItem from="1673110264239" duration="1227000" />
       <workItem from="1673778812249" duration="306000" />
       <workItem from="1673896903501" duration="203000" />
-      <workItem from="1673898467774" duration="1448000" />
+      <workItem from="1673898467774" duration="1703000" />
+      <workItem from="1673900704859" duration="511000" />
+      <workItem from="1673967119281" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented readDictionary and correctInput functions.">
       <created>1673899548303</created>
@@ -95,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673899934403</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implemented readDictionary and correctInput functions.">
+      <created>1673900041467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673900041467</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implemented readDictionary and correctInput functions.">
+      <created>1673901063071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673901063071</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

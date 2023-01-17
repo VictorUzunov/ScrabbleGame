@@ -50,4 +50,49 @@ bool readDictionary(vector<string> &words) {
     file.close();
     return true;
 }
+char getRandomVowel() {
+    int randomNumber = rand() % 5;
+    char vowel;
+    switch (randomNumber) {
+        case 0: {
+            vowel = 'a';
+            break;
+        }
+        case 1: {
+            vowel = 'e';
+            break;
+        }
+        case 2: {
+            vowel = 'o';
+            break;
+        }
+        case 3: {
+            vowel = 'i';
+            break;
+        }
+        case 4: {
+            vowel = 'u';
+            break;
+        }
+    }
+    return vowel;
+}
+
+//Check if the word is with available letters for the round
+bool correctWordForTheRound(string availableLetters, const string yourWord) {
+    for (int i = 0; i < yourWord.size(); i++) {
+        bool correctWord = false;
+        for (int j = 0; j < availableLetters.size(); j++) {
+            if (availableLetters[j] == yourWord[i]) {
+                availableLetters[j] = '0';
+                correctWord = true;
+                break;
+            }
+        }
+        if (!correctWord) {
+            return false;
+        }
+    }
+    return true;
+}
 
