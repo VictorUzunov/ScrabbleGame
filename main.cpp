@@ -140,4 +140,39 @@ void settings(int &lettersInEachRound, int &rounds) {
     cin >> rounds;
 
 }
+//Change one letter and randomly get a new one
+void changeAvailableLetter(string &availableLetters, const char letter) {
+    for (int i = 0; i < availableLetters.size(); i++) {
+        if (availableLetters[i] == letter) {
+            int random = rand() % 26;
+            int newLetter = 'a' + random;
+            availableLetters[i] = (char) newLetter;
+            break;
+        }
+    }
+}
 
+//The Random Letter Generator is forced to give at least two vowels
+void randomLettersGenerator(string &availableLetters, int lettersInEachRound) {
+    for (int i = 0; i < lettersInEachRound; i++) {
+        if ((i + 1) % 4 != 0) {
+            int random = rand() % 26;
+            int letter = 'a' + random;
+            availableLetters += (char) letter;
+            cout << (char) letter << " ";
+        } else {
+            //Random vowel
+            availableLetters += getRandomVowel();
+            cout << availableLetters[i] << " ";
+        }
+    }
+    cout << endl;
+}
+
+//Print the available letters
+void letters(string &availableLetters) {
+    for (int i = 0; i < availableLetters.size(); i++) {
+        cout << availableLetters[i] << " ";
+    }
+    cout << endl;
+}

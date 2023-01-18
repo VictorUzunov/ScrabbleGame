@@ -17,9 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12d4d253-5103-4786-9444-5414dde46961" name="Changes" comment="First project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="12d4d253-5103-4786-9444-5414dde46961" name="Changes" comment="Implemented addWordToDictionary, settings, saveDictionary functions." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +82,7 @@
       <workItem from="1673898467774" duration="1703000" />
       <workItem from="1673900704859" duration="511000" />
       <workItem from="1673967119281" duration="3432000" />
-      <workItem from="1674026128656" duration="3000" />
+      <workItem from="1674026128656" duration="588000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented readDictionary and correctInput functions.">
       <created>1673899548303</created>
@@ -135,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673980218468</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implemented addWordToDictionary, settings, saveDictionary functions.">
+      <created>1674026289792</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674026289792</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +208,7 @@
     <MESSAGE value="Adding getRandomVowel and correctWordForTheRound functions." />
     <MESSAGE value="Implemented wordExistsInDictionary and validNewWord functions." />
     <MESSAGE value="First project" />
-    <option name="LAST_COMMIT_MESSAGE" value="First project" />
+    <MESSAGE value="Implemented addWordToDictionary, settings, saveDictionary functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented addWordToDictionary, settings, saveDictionary functions." />
   </component>
 </project>
