@@ -114,4 +114,30 @@ bool validNewWord(const string &newWord) {
     }
     return true;
 }
+//Fill the file with the words from the vector
+void saveDictionary(vector<string> &words) {
+    //Open the file and delete everything from it
+    fstream file(DICTIONARY_NAME, ios::out | ios::trunc);
+    for (int i = 0; i < words.size(); i++) {
+        file << words[i] << endl;
+    }
+    file.close();
+}
+
+void addWordToDictionary(vector<string> &words, const string &wordToAdd) {
+    words.push_back(wordToAdd);
+    saveDictionary(words);
+}
+
+void settings(int &lettersInEachRound, int &rounds) {
+
+    cout << "Settings:" << endl;
+    cout << "Here, you can change the number of the rounds and the number of the letters in each round" << endl;
+    cout << "Insert the number of letters in each round: ";
+    cin >> lettersInEachRound;
+
+    cout << "Insert the number of rounds in each game: ";
+    cin >> rounds;
+
+}
 
